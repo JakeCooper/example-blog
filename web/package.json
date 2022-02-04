@@ -12,6 +12,10 @@
       "not IE_Mob 11"
     ]
   },
+  "scripts": {
+    "build": "yarn rw build web",
+    "start": "yarn rw serve web"
+  },
   "dependencies": {
     "@gouch/to-title-case": "^2.2.1",
     "@redwoodjs/auth": "^0.38.0",

@@ -2,8 +2,12 @@
   "name": "api",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "build": "yarn rw build api",
+    "start": "yarn rw serve api"
+  },
   "dependencies": {
     "@redwoodjs/api": "^0.38.0",
     "@redwoodjs/graphql-server": "^0.38.0"
-  }
+  },
 }
